@@ -83,6 +83,11 @@ const IndexPage = () => (
       />
       <h1>
         Welcome to <b>Gatsby!</b>
+       
+        <div>
+    <p> Please Click below for  authorized login:!</p>
+    <Link to="/account/">Go to your account</Link>
+  </div>
       </h1>
       <p className={styles.intro}>
         <b>Example pages:</b>{" "}
